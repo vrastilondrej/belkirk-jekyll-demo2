@@ -32,7 +32,7 @@ fields:
     use_select: true
     source:
       type: pages
-      section: posts
+      section: jekyll-posts
 - name: layout
   label: Layout
   type: text
