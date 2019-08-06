@@ -34,8 +34,8 @@ sections:
 - type: document
   path: _data/information.yml
   label: Contact Information
-upload_dir: ''
-public_path: ''
+upload_dir: uploads
+public_path: https://gallant-dijkstra-6bd5a8.netlify.com/uploads
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
