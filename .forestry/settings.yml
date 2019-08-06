@@ -35,10 +35,10 @@ sections:
   path: _data/information.yml
   label: Contact Information
 upload_dir: uploads
-public_path: https://gallant-dijkstra-6bd5a8.netlify.com/uploads
+public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: 
-file_template: ":filename:"
+file_template: ":year:/:month:/:day:/:filename:"
 instant_preview: true
 build:
   preview_command: bundle exec jekyll build --drafts --unpublished --future -d _site
