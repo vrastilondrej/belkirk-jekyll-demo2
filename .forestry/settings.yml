@@ -6,6 +6,13 @@ webhook_url:
 sections:
 - type: heading
   label: Content
+- type: directory
+  path: _people
+  label: People
+  create: all
+  match: "*"
+  templates:
+  - person
 - type: jekyll-posts
   label: Posts
   create: all
@@ -17,13 +24,6 @@ sections:
   templates:
   - landing-page
   - page
-- type: directory
-  path: _people
-  label: People
-  create: all
-  match: "*"
-  templates:
-  - person
 - type: directory
   path: _projects
   label: Projects
